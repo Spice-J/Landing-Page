@@ -1,6 +1,6 @@
 .body {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -20,21 +20,27 @@
 }
 
 .rock-img {
-    border-radius: 10%;
+    border-radius: 50%;
     max-width: 50px;
+    margin-left: 150px;
 }
 
+.header-links {
+    margin-right: 150px;
+}
 .header-links a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
     padding: 20px;
 }
+/* Landing Page */
 
 .landing-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 150px;
 }
 
 .text {
