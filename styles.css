@@ -64,6 +64,14 @@
     margin-top: 35px;
 }
 
+/* section 2 */
+
+.proj-images .img-1, .img-2, .img-3, .img-4 {
+    max-width: 150px;
+    max-height: 200px;
+    border-radius: 15%;
+}
+
 .footer {
     margin-top: auto;
 }
