@@ -66,11 +66,28 @@
 
 /* section 2 */
 
+.proj-banner {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
 .proj-images .img-1, .img-2, .img-3, .img-4 {
     max-width: 150px;
     max-height: 200px;
     border-radius: 15%;
 }
+
+.proj-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
 
 .footer {
     margin-top: auto;
